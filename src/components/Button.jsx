@@ -18,10 +18,10 @@ const StyledButton = styled.button.attrs((props) => ({
   padding: 10px 15px;
   font-size: 18px;
   cursor: pointer;
-  &: focus {
+  &:focus {
     outline: none;
   }
-  &: hover {
+  &:hover {
     animation: ${rotateAnimation} 1s infinite linear;
   }
   align-self: ${(props) => props.align || "stretch"};
