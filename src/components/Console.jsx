@@ -40,8 +40,7 @@ const Console = ({ color, ...props }) => {
       <Flex direction={"column"} margin="0 10px">
         {lines.map((line, index) => (
           <Line key={index} color={color}>
-            {" "}
-            {line}{" "}
+            {line}
           </Line>
         ))}
       </Flex>
